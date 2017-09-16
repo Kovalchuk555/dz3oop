@@ -14,13 +14,13 @@ private String type;
 
 
 
-    public Figure() {
-        this.point1 = point1;
-        this.point2 = point2;
+    public Figure(Point point, Point point1, Point point2) {
+        this.point1 = this.point1;
+        this.point2 = this.point2;
         this.point3 = point3;
         type = "Triangle";
-        name = point1.getName() +
-                point2.getName() +
+        name = this.point1.getName() +
+                this.point2.getName() +
                 point3.getName();
         System.out.println(name);
         System.out.println(type);
